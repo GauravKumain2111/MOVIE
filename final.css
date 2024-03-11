@@ -11,6 +11,53 @@ body {
 
 
 }
+@media screen and (max-width: 1000px) {
+#hlo{
+    display: none;
+}
+#searchbar{
+   width: 100vh;
+
+}
+/* #lists{
+    display: none;
+} */
+
+
+}
+.mast{
+    overflow-x: hidden;
+}
+@media screen and (max-width:700px) {
+    #baars img{
+        display: none;
+    }
+    .gayab{
+        display: none;
+    }
+    #bgvid{
+        height: 60vh;
+    }
+    nav{
+        display: flex;
+        gap: 1px;
+        
+        background-color: black;
+        height: auto;
+    }
+    #searchbar li i{
+        margin-left: 0px;
+    }
+    ul{
+        width: 20vw;
+    }
+    #logo{
+        font-size: small;
+        
+        width: auto;
+    }
+    
+}
 
 .i {
     width: 322px !important;
