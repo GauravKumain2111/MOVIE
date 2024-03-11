@@ -21,6 +21,7 @@ body {
 .hero {
     position: relative;
     min-height: 50vh;
+    overflow: none;
 
 }
 
@@ -82,13 +83,11 @@ li {
 #hlo{
     display: none;
 }
-#searchbar{
-   width: 100vh;
 
-}
 /* #lists{
     display: none;
 } */
+
 
 
 }
@@ -151,7 +150,7 @@ li {
 
 
 #lists2 ul input{
-    width: 10rem;
+    width: 30rem;
     border-radius: 10px;
     height: 50%;
     margin-left: 17px;
@@ -226,7 +225,9 @@ h3 {
     overflow-x: scroll;
 
 }
-
+html::-webkit-scrollbar {
+    display: none;
+}
 #recomm::-webkit-scrollbar {
     display: none;
 }
